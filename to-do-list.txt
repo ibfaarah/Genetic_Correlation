@@ -1,0 +1,12 @@
+
+
+Nextflow - Genetic Correlation
+
+
+Things to do
+
+
+1) Genetic Liability. Edit, CSV, to for 'samp-prev' and 'pop-prev' for each trait 
+2) Add 'constraining the intercept'
+3) Add GWAS's to be run as a process
+4) Visualisation

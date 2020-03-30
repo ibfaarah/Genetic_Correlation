@@ -1,0 +1,11 @@
+Dec-25 04:29:53.690 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --summary_stats testdata/ukbiobank-multiple_psychotic_experience.sumstats.txt.gz,testdata/ukbiobank-distressing_psychotic_experience.sumstats.txt.gz --sample_size 2000 --merge_alleles references/w_hm3.snplist --ld_reference references/eur_w_ld_chr/ --outdir /Users/ibrahim/Desktop/nextflow-Genetic-Correlation
+Dec-25 04:29:53.806 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.10.0
+Dec-25 04:29:53.842 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+nextflow.exception.AbortOperationException: Not a valid project name: main.nf
+	at nextflow.scm.AssetManager.resolveName(AssetManager.groovy:246)
+	at nextflow.scm.AssetManager.build(AssetManager.groovy:121)
+	at nextflow.scm.AssetManager.<init>(AssetManager.groovy:105)
+	at nextflow.cli.CmdRun.getScriptFile(CmdRun.groovy:313)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:229)
+	at nextflow.cli.Launcher.run(Launcher.groovy:457)
+	at nextflow.cli.Launcher.main(Launcher.groovy:639)
